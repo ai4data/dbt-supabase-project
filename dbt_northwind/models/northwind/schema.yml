@@ -1,0 +1,11 @@
+#models/northwind/schema.yml
+version: 2
+
+sources:
+  - name: northwind
+    schema: public
+    tables:
+      - name: order_details
+      - name: customers
+      - name: products
+      - name: orders
